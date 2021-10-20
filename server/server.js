@@ -39,7 +39,6 @@ app.all('/*', setupCorsHeaders);
 
 // For each api file js, create your own route with express
 const apiFiles = fs.readdirSync('./server/api');
-console.log('apiFiles => ', apiFiles);
 apiFiles.forEach(apiFile => {
     if (apiFile.endsWith('.js')){
         require('./api/' + apiFile)(app);

@@ -1,5 +1,5 @@
 {
-  "name": "interceptor-and-caching",
+  "name": "angular-using-express-as-mock-server",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
